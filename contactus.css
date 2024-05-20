@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==== to hide scrollbar ==== */
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* style variables */
+:root {
+    --font1: "Outfit", sans-serif;
+    --font2: "Libre Baskerville", serif;
+    --font3: "Bebas Neue", sans-serif;
+    --primarycolor: #f1f1f1;
+    /* --secondrycolor:#f0a500; */
+    --secondrycolor: #f8b81f;
+    --headingcolor: #1ab79d;
+    --textcolor: #1f1f1f;
+}
+#yellowish{
+    color: var(--secondrycolor);
+}
+
+/* ============================ contact =========================== */
+#contact-topheading{
+    font-size: 50px;
+    color: var(--textcolor);
+    margin-top: 100px;
+}
+.contactus{
+    background: url(img6.png);
+    background-position: center;
+    background-size: cover;
+}
+#contact{
+    padding-top: 5px;
+}
+#contact h1{
+    text-align: center;
+    font-size: 35px;
+}
+.containerr{
+    display: flex;
+    padding: 50px;
+    
+}
+.contact-left {
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 500px;
+    /* height: auto; */
+}
+.contact-left div{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    margin: 12px;
+    /* background-color: #fff; */
+    color: black;
+}
+.contact-left .g{
+    width: 83%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.contact-left .g img{
+    height: auto;
+    width: 300px;
+    mix-blend-mode: darken;
+}
+.contact-left div h4{
+    text-align: center;
+    margin-top:10px ;
+    font-weight: 500;
+}
+.contact-left div i{
+    color: var(--secondrycolor);
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 10px;
+    
+}
+
+.contact-right {
+    width: 50%;
+}
+
+#contmsg{
+    font-size: 20px;
+    padding: 20px;
+    color: var(--textcolor);
+    text-align: center;
+}
+.contact-left div p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 650;
+}
+#heart{
+    display: inline;
+    font-size: 18px;
+    margin: 0px 3px;
+}
+#form h3{
+    font-size : 25px;
+}
+.contact-right form{
+    width: 80%;
+    height: fit-content;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    color: var(--textcolor);
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    display:flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding:2vw 4vw;
+    width: 30%;
+    max-width: 600px;
+    border: 2px solid var(--textcolor);
+}
+form h2{
+    color: var(--secondrycolor);
+    font-weight: 800;
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+form input  textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline:#1ab79d;
+    background:#ffffff;
+    font-size: 16px;
+    border: 1px solid var(--secondrycolor);
+}
+
+/* ===================style for send button===============  */
+button {
+    font-family: inherit;
+    font-size: 15px;
+    background: var(--secondrycolor);
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100px;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+#msg{
+    display: block;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1.35rem;
+}
+
+@media only screen and (max-width:600px){
+    .containerr{
+        display: block;
+        padding: 30px;
+    }
+    .container{
+        width: 100%;
+        height:75vh;
+        display:flex;
+    }
+    .contact-right {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .contact-left {
+        width: 100%;
+        height: 410px;
+    }
+    .contact-left div{
+        width: 42%;
+        height: 180px;
+    }
+    .contact-left .g{
+        width: 100%;
+    }
+    .contact-right form {
+        width: 100%;
+    }
+
+    .contact-left div h2{
+        padding-top:5px;
+        font-size: 20px;
+    }
+    .contact-left div i{
+        font-size: 20px;
+        margin: 15px 0 ;
+        
+    }
+    #contmsg{
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .contact-left div p{
+        font-size: 15px;
+    }
+    #emaill{
+        font-size: 12px;
+    }
+    #contact h1{
+        font-size: 28px;
+    }
+    form input{
+        font-size: 15px;
+    }
+    form textarea{
+        font-size: 15px;
+    }
+    button{
+        font-size: 12px;
+        width: 90px;
+    }
+    form h2{
+        font-size: 18px;
+    }
+
+}

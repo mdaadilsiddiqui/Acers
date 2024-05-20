@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======= stylesheet ========== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
+    <!-- ======= google fonts ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- ======== boxicons ====== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======== fontawesome ====== -->
+    <script src="https://kit.fontawesome.com/484d1ff7e0.js" crossorigin="anonymous"></script>
+      <!-- ======== web icon ====== -->
+      <link rel="website icon" href="webicon.png" type="png">
+    <title>ACERS</title>
+</head>
+
+<body>
+    <!-- =========== home =========== -->
+    <header>
+        <!-- navbar -->
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#" id="logopic"><img src="logopic.png" alt="logo"></a>
+                </div>
+                <div class="nav-elements">
+                    <ul id="sidemenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">categories</a></li>
+                        <li><a href="#services">about-us</a></li>
+                        <li><a href="#portfolio">notes</a></li>
+                        <li><a href="#contact">Courses</a></li>
+                        <!-- <button class="contact-us">contact-us</button> -->
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()" id="hb"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- contact us page  -->
+    <section class="contactus">
+        <div id="contact">
+            <h1 id="contact-topheading">Send Us Message</h1>
+            <div class="containerr">
+                <div class="contact-left">
+                   
+                    <div class="g">
+                        <!-- <p id="contmsg">
+                            Welcome to <b id="yellowish">ACERS</b>- Your Ultimate Academic Hub! We're here to support you
+                            on your educational journey. Don't hesitate to reach out for help or guidance - our
+                            dedicated team is ready to assist you. Your feedback is invaluable to us, as we strive to
+                            create an inclusive and empowering learning environment. Feel free to ask questions, share
+                            your thoughts, and let us know how we can enhance your experience. Together, let's make your
+                            academic adventure a success!
+                        </p> -->
+                        <img src="contactus.gif" alt="" height="350px" width="auto">
+                    </div>
+                     <div class="a">
+                        <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <h4>Email Us</h4>
+                        <p id="emaill">acers.saai@gmail.com</p>
+                    </div>
+                    <div class="p">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Made with <i class="fa-solid fa-heart" id="heart"></i> by</h4>
+                        <p>Aadil & Sahil</p>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <!--    contact form   -->
+                    <div id="contact">
+                        <div class="container">
+
+                            <form id="form" name="submit-to-google-sheet">
+
+                                <h2 class="sub-title">Connect With Us</h2>
+
+                                <label for="name"></label>
+                                <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name"
+                                    required />
+                                <label for="email"></label>
+                                <input type="email" class="form-control" id="email" name="Email"
+                                    placeholder="Your Email" />
+                                <label for="message"></label>
+                                <textarea id="message" class="form-control" rows="4" name="Message"
+                                    placeholder="Enter Your Query"></textarea>
+                                <button>
+                                    <div class="svg-wrapper-1">
+                                        <div class="svg-wrapper">
+                                            <svg height="24" width="24" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                                <path
+                                                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <span>SEND</span>
+                                </button>
+                                <span id="msg"></span>
+
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--========== footer starts here  ==========-->
+    <section class="footer" style="top: 0;">
+        <div class="footer-wrapper">
+            <div class="section1">
+                <a href="#"><img src="logopic.png" alt="logo"></a>
+                <p> The development of ACERS has been a dynamic journey filled with innovation and dedication. As we
+                    reflect on the year-long practical project, we take pride in the seamless integration of
+                    cutting-edge technologies and user-centric design</p>
+                <!-- <p>
+                    We extend our gratitude to everyone who contributed to this project, from the brainstorming sessions
+                    to the final implementation
+                </p> -->
+                <h4>special thanks</h4>
+                <h3>mr. shailendra purohit (HOD BCA Faculty)</h3>
+            </div>
+            <div class="section2">
+                <div>
+                    <h2>
+                        links
+                    </h2>
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#categories">categories</a></li>
+                        <li><a href="#about-us">about-us</a></li>
+                        <li><a href="#">notes</a></li>
+                        <li><a href="courses.html">courses</a></li>
+                        <!-- <button class="contact-us">contact-us</button> -->
+                    </ul>
+                </div>
+                <div class="source">
+                    <h2>sources</h2>
+                    <ul>
+                        <li><a href="https://www.google.com/" target="_blank">google</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+                        <li><a href="https://boxicons.com/" target="_blank">boxicons</a></li>
+                        <li><a href="https://fonts.google.com/" target="_blank">googlefonts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section3">
+                <h2>teachnologies</h2>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>react-js</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const scriptURL = 'https://docs.google.com/spreadsheets/d/1lYZSkcKsyGsS1ogx0k45L90puo4iIrV7Q-lhyAkKzaM/edit?usp=sharing'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+<script src="app.js"></script>
+</html>

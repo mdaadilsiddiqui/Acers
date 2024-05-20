@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- ======= google fonts ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- ======== boxicons ====== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======== fontawesome ====== -->
+    <script src="https://kit.fontawesome.com/484d1ff7e0.js" crossorigin="anonymous"></script>
+    <!-- ======== web icon ====== -->
+    <link rel="website icon" href="webicon.png" type="png">
+    <title>ACERS</title>
+</head>
+
+<body>
+     <!-- navbar -->
+     <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#" id="logopic"><img src="logopic.png" alt="logo"></a>
+            </div>
+            <div class="nav-elements">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#categories">categories</a></li>
+                    <li><a href="index.html#about-us">about-us</a></li>
+                    <!-- <li><a href="notes.html">notes</a></li> -->
+                    <!-- <li><a href="courses.html">Courses</a></li> -->
+                    <li><a href="career.html#mca">MCA</a></li>
+                    <button class="contact-us" onclick="window.location.href='contactus.html';">contact-us</button>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" id="hb"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- courses section starts here  -->
+    <section class="career">
+        <div class="head-er">
+            <div class="header-content">
+                <h1>Improve your skills with these <span id="yellowish">Courses</span></h1>
+                <p>Explore a diverse range of courses designed to empower and inspire learners of all backgrounds.
+                    Whether you're a seasoned professional seeking to sharpen your skills or a curious beginner eager to
+                    delve into a new field, our carefully curated selection of courses awaits you. From cutting-edge
+                    technology and business strategies to creative arts and personal development, our offerings are
+                    crafted to cater to a multitude of interests.</p>
+            </div>
+            <div class="header-image">
+                <img src="courses/courses.png" alt="pyq">
+            </div>
+        </div>
+    <div class="all-pdf">
+        <div class="course webdev" style="z-index: 100;">
+
+            <h1>web-devlopment(frontend)</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeWebdev()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>html</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=BVIZRAvvdPKAx0jq"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>css</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Edsxf_NBFrw?si=V6FWgh2iE1M4MklK"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>bootstrap</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vpAJ0s5S2t0?si=7nUdDIaQz80q5Zc4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>javascrit</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hKB-YGF14SY?si=k1SiEW9YdeSnYkzM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course mern" style="z-index: 100;">
+
+            <h1>web-devlopment(MERN)</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeMern()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>mongo db</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=BVIZRAvvdPKAx0jq"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>express js</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Edsxf_NBFrw?si=V6FWgh2iE1M4MklK"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>react-js</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vpAJ0s5S2t0?si=7nUdDIaQz80q5Zc4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>node-js</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hKB-YGF14SY?si=k1SiEW9YdeSnYkzM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course c" style="z-index: 100;">
+
+            <h1>programming with c</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeC()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>c basics</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/irqbmMNs2Bo?si=9pye7qjD3sR2_O9U"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>c advance</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YXcgD8hRHYY?si=EZ_UpCycB1V1e6Wn"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course cpp" style="z-index: 100;">
+
+            <h1>programming with cpp</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeCpp()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>cpp beginer</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?si=Wif64wcGHqlwHScn&amp;list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>cpp project ideas</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lo3QXThMEPQ?si=nDPwxOBwB7BeINvA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course java" style="z-index: 100;">
+
+            <h1>programming with Java</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeJava()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>tutorials</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?si=CB237ErpMBpbQQyT&amp;list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>project ideas</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?si=vu2SFAytakFHwdzP&amp;list=PLwiuaDJVNC9Cmiw-i9pO668GII1FNuoUP"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course python" style="z-index: 100;">
+
+            <h1>programming with python</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closePython()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>tutorials</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?si=q8WyyXifmqJx1jpL&amp;list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>projects</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/videoseries?si=tn84fsY4JNXkYakv&amp;list=PLjVLYmrlmjGfAUdLiF2bQ-0l8SwNZ1sBl"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course office" style="z-index: 100;">
+
+            <h1>Microsoft office</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeOffice()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>ms word</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hy2XzcW2mxc?si=aphF8Y_Ee5s8pMMs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>ms excel</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vl0H-qTclOg?si=bTft_eQUVtRl9zFk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>powerpoint</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fACEzzmXelY?si=wlsrC3JtEyMmYw6L"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>ms outlook</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWGtXWumb4A?si=j8wSw-Z2pGhRUZ94"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="course sql" style="z-index: 100;">
+
+            <h1>SQL ( structured query language )</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="closeSql()" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <div class="wrapper"></div>
+            <div class="lectures">
+                <h3>tutorials</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hlGoQC332VM?si=Csopm3FV9cL137YW"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="lectures">
+                <h3>projects</h3>
+                <div class="iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VFIuIjswMKM?si=Y4gu57-vwIKuGCHK"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h1 id="pyq-heading">the path of your <span class="yellowish">knowledge</span> begin!</h1>
+
+        <ul class="cards">
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/web-development.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">web-devlopment(frontend)</h2>
+                        <p class="card_text">covering html, css, bootstrap & js</p>
+                        <button class="btn card_btn" onclick="openWebdev()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/mern.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">web-devlopment(MERN)</h2>
+                        <p class="card_text">covering bcakend & database</p>
+                        <button class="btn card_btn" onclick="openmern()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/c.png"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">programming with c </h2>
+                        <p class="card_text">from basic to advance</p>
+                        <button class="btn card_btn" onclick="openC()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/cpp.png"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">programming with c++ </h2>
+                        <p class="card_text">from basic to advance</p>
+                        <button class="btn card_btn" onclick="openCpp()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/java.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">programming with JAVA </h2>
+                        <p class="card_text">from basic to advance</p>
+                        <button class="btn card_btn" onclick="openJava()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/python.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">programming in python </h2>
+                        <p class="card_text">from basic to advance</p>
+                        <button class="btn card_btn" onclick="openPython()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/msoffice.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">microsoft office</h2>
+                        <p class="card_text">from basic to advance</p>
+                        <button class="btn card_btn" onclick="openOffice()">view course</button>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="courses/sql.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">SQl</h2>
+                        <p class="card_text">from basic to advance</p>
+                        <button class="btn card_btn" onclick="openSql()">view course</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+     <!--========== footer starts here  ==========-->
+     <section class="footer" style="top: 0;">
+        <div class="footer-wrapper">
+            <div class="section1">
+                <a href="#"><img src="logopic.png" alt="logo"></a>
+                <p> The development of ACERS has been a dynamic journey filled with innovation and dedication. As we
+                    reflect on the year-long practical project, we take pride in the seamless integration of
+                    cutting-edge technologies and user-centric design</p>
+                <!-- <p>
+          We extend our gratitude to everyone who contributed to this project, from the brainstorming sessions
+          to the final implementation
+        </p> -->
+                <h4>special thanks</h4>
+                <h3>mr. shailendra purohit (HOD BCA Faculty)</h3>
+            </div>
+            <div class="section2">
+                <div>
+                    <h2>
+                        links
+                    </h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#categories">categories</a></li>
+                        <li><a href="index.html#about-us">about-us</a></li>
+                        <!-- <li><a href="notes.html">notes</a></li> -->
+                        <!-- <li><a href="courses.html">Courses</a></li> -->
+                        <li><a href="career.html#mca">MCA</a></li>
+                        <button class="contact-us" onclick="window.location.href='contactus.html';">contact-us</button>
+                    </ul>
+                </div>
+                <div class="source">
+                    <h2>sources</h2>
+                    <ul>
+                        <li><a href="https://www.google.com/" target="_blank">google</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+                        <li><a href="https://boxicons.com/" target="_blank">boxicons</a></li>
+                        <li><a href="https://fonts.google.com/" target="_blank">googlefonts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section3">
+                <h2>teachnologies</h2>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>react-js</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    function openWebdev() {
+        const webdev = document.querySelector(".webdev");
+        webdev.style.display = "block";
+    }
+    function closeWebdev() {
+        const webdev = document.querySelector(".webdev");
+        webdev.style.display = "none";
+    }
+    function openmern() {
+        const mern = document.querySelector(".mern");
+        mern.style.display = "block";
+    }
+    function closeMern() {
+        const mern = document.querySelector(".mern");
+        mern.style.display = "none";
+    }
+    function openC() {
+        const C = document.querySelector(".c");
+        C.style.display = "block";
+    }
+    function closeC() {
+        const C = document.querySelector(".c");
+        C.style.display = "none";
+    }
+    function openCpp() {
+        const Cpp = document.querySelector(".cpp");
+        Cpp.style.display = "block";
+    }
+    function closeCpp() {
+        const Cpp = document.querySelector(".cpp");
+        Cpp.style.display = "none";
+    }
+    function openJava() {
+        const java = document.querySelector(".java");
+        java.style.display = "block";
+    }
+    function closeJava() {
+        const java = document.querySelector(".java");
+        java.style.display = "none";
+    }
+    function openPython() {
+        const python = document.querySelector(".python");
+        python.style.display = "block";
+    }
+    function closePython() {
+        const python = document.querySelector(".python");
+        python.style.display = "none";
+    }
+    function openOffice() {
+        const office = document.querySelector(".office");
+        office.style.display = "block";
+    }
+    function closeOffice() {
+        const office = document.querySelector(".office");
+        office.style.display = "none";
+    }
+    function openSql() {
+        const sql = document.querySelector(".sql");
+        sql.style.display = "block";
+    }
+    function closeSql() {
+        const sql = document.querySelector(".sql");
+        sql.style.display = "none";
+    }
+</script>
+
+</html>

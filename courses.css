@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* ==== to hide scrollbar ==== */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* style variables */
+:root {
+  --font1: "Outfit", sans-serif;
+  --font2: "Libre Baskerville", serif;
+  --font3: "Bebas Neue", sans-serif;
+  --primarycolor: #f1f1f1;
+  /* --secondrycolor:#f0a500; */
+  --secondrycolor: #f8b81f;
+  --headingcolor: #1ab79d;
+  --textcolor: #1f1f1f;
+}
+
+/* ===== body ===== */
+body {
+  font-family: var(--font1);
+  background-color: #ffffffc7;
+  color: var(--textcolor);
+}
+
+/*  career header style  */
+.head-er {
+  height: 50vw;
+  width: 100%;
+  background: url("img6.png");
+  background-position: center;
+  padding-top: 75px;
+  display: flex;
+}
+
+.header-content {
+  width: 50%;
+  height: 100px;
+}
+
+.header-content h1 {
+  text-transform: capitalize;
+  padding-top: 110px;
+  padding-left: 100px;
+  font-size: 45px;
+  font-family: var(--font1);
+  font-weight: 700;
+}
+
+#yellowish {
+  color: #ee4a62;
+}
+
+.header-content p {
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 20px 60px 0px 100px;
+  font-weight: 300;
+}
+
+.header-image {
+  width: 50%;
+  height: fit-content;
+  padding: 100px;
+  padding-left: 150px;
+}
+
+.header-image img {
+  height: 300px;
+  width: auto;
+  mix-blend-mode: darken;
+}
+
+/* main secton starts here  */
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+}
+.yellowish {
+  color:#ee4a62;
+}
+#pyq-heading {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card_image {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ee4a62;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.505);
+  background: transparent;
+  transition: 0.6s;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  padding-top: 40px;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 25%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 300px;
+}
+
+.card_content {
+  padding: 1rem;
+  /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+  background: rgb(245, 242, 235);
+  background: linear-gradient(
+    357deg,
+    rgba(245, 242, 235, 1) 46%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.card_title {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  height: 50px;
+}
+
+.card_text {
+  color: black;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+/*======== css for small screens =========*/
+@media only screen and (max-width: 600px) {
+  .head-er {
+    height: 80vh;
+    background: url("img66.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-content h1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 22px;
+  }
+
+  .header-content p {
+    font-size: 15px;
+    padding: 20px 40px 0px 50px;
+    font-weight: 300;
+  }
+
+  .header-image {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .header-image img {
+    height: 200px;
+    width: auto;
+  }
+
+  /*============== all pdf css================== */
+  .all-pdf {
+    padding: 50px 0px;
+  }
+
+  #pyq-heading {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .card_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    height: 100px;
+    max-width: 90%;
+    vertical-align: middle;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards_item {
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    padding-top: 40px;
+  }
+  .card_title {
+    font-size: 13px;
+    letter-spacing: 0px;
+    margin: 0px;
+    height: 35px;
+  }
+  .card_text {
+    color: black;
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    padding: 0.5rem;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+}
+.course {
+  width: 90%;
+  height: 90vh;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  transform: translate(5%, 5%);
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  padding: 10px;
+  overflow-y: scroll;
+  display: none;
+}
+
+.course .lectures{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.lectures .iframe{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+}
+.lectures .iframe iframe{
+    width: 100%;
+    height: 100%;
+}
+.course svg{
+    transform: scale(1.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/*======== css for small screens =========*/
+@media only screen and (max-width:600px) {
+  .head-er {
+      height: 80vh;
+      background: url("img66.png");
+      background-position: center;
+      background-size: cover;
+      padding-top: 75px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .header-content {
+      width: 100%;
+      height: auto;
+  }
+
+  .header-content h1 {
+      padding-top: 50px;
+      padding-left: 50px;
+      font-size: 22px;
+  }
+
+  .header-content p {
+      font-size: 15px;
+      padding: 20px 40px 0px 50px;
+      font-weight: 300;
+  }
+
+  .header-image {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      padding-left: 0px;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  .header-image img {
+      height: 200px;
+      width: auto;
+  }
+}
