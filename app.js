@@ -10,5 +10,5 @@ function closemenu() {
 
 // js for aadil's portfolio button 
 document.getElementById('aadil').addEventListener('click', function() {
-    window.location.href = 'https://sahill85.github.io/PortFolio/';
+    window.location.href = 'https://mdaadilsiddiqui.github.io/Portfolio/';
 }); 
